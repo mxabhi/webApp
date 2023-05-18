@@ -1,0 +1,141 @@
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Header Styles */
+h1 {
+  font-size: 2.5rem;
+  margin: 2rem 0;
+  text-align: center;
+  color: #555;
+  text-shadow: 1px 1px 1px #ccc;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+thead th {
+  font-size: 1.2rem;
+  background-color: #eee;
+  color: #555;
+  text-align: left;
+  padding: 1rem;
+}
+
+tbody td {
+  font-size: 1.1rem;
+  background-color: #fff;
+  color: #333;
+  text-align: left;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Add New Student Form Styles */
+h2 {
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #555;
+  text-shadow: 1px 1px 1px #ccc;
+}
+
+form {
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+label {
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+
+/* Center the form vertically and horizontally */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Add some padding to the form */
+form {
+  padding: 20px;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="password"] {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+/* Style the login button */
+input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+/* Style the login button on hover */
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Center the form title */
+h1 {
+  text-align: center;
+}
+
+/* Add some margin to the form title */
+h1 {
+  margin-bottom: 20px;
+}
+
